@@ -1,23 +1,63 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title> First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector*/
+        /*div {
+            background-color: red;
+}*/
+/*class selector*/
+   .red {
+    background-color: red;
+}
+/*id selector*/
+#yellow {
+    background-color: yellow;
+}
+/*child selector*/
+ div > p {
+    color: blue;
+    background-color: chartreuse;
+}
+/*decendant selector*/
+div p {
+    color: rgb(0, 94, 255);
+    background-color: rgb(255, 0, 166);
+}
+/* universal selector*/
+ *{ margin: 0%;
+padding: 0%;
+}
+/*pseudo selector*/
+a:link{
+    color: purple;
+}
+a:visited {
+    color: brown;
+}
+a:active{
+    background-color: red;
+}
+a:hover {
+    background-color: yellow;
+}
+    </style>
 </head>
-
 <body>
-
-    <h1>Welcome to My Website!</h1>
-
-    <p>Hello! My name is raima.</p>
-
-    <p>I am learning HTML.</p>
-
-
-    <button>Click Me</button>
-
-
-    <a href="https://www.google.com">Visit Google</a>
-
+    <div class="red">
+        i am a div
+        <p>i am a para inside div</p>
+    </div>
+    <div>
+        i am another div
+    </div>
+    <div id="yellow">
+        i am a yellow div
+    </div>
+    <a href="https:www.google.com">visit google</a>
+    <a href="https:www.instagram.com">let us visit instagram</a>
 </body>
-
 </html>
